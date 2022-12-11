@@ -7,7 +7,7 @@
 
 ## How to Use
 
-### Chatbot Model
+### Model
 
 1. Run klue_data_convert.py
 
