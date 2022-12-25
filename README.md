@@ -17,14 +17,18 @@
 
 ## Requirements
 
-- dgl-cu113==0.9.1.post1
-- ignite==1.1.0
-- python==3.6.9
-- torch==1.10.0+cu113
-- scikit-learn=<0.24.2
-- transformers=<4.18.0
-- numpy=<1.19.5
-- networkx==2.5.1
+- `dgl-cu113 == 0.9.1.post1`
+- `ignite == 1.1.0`
+- `python == 3.6.9`
+- `torch == 1.10.0+cu113`
+- `scikit-learn =< 0.24.2`
+- `transformers =< 4.18.0`
+- `numpy =< 1.19.5`
+- `networkx == 2.5.1`
+
+## Problem
+
+When constructing an adjacency matrix, there is a data leakage problem. (The paperwitchcode doesn't seem to consider that issue.)
 
 ## Reference
 
