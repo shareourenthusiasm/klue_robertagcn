@@ -44,3 +44,12 @@ When constructing an adjacency matrix, there is a data leakage problem. (The pap
 
 - [BertGCN: Transductive Text Classification by Combining GCN and BERT](https://arxiv.org/abs/2105.05727)
 - [KLUE: Korean Language Understanding Evaluation](https://arxiv.org/abs/2105.09680)
+
+## Workers
+
+### [노영준](https://github.com/youngjun-99)
+- Change build graph method
+- Preprocessing
+
+### [박정원](https://github.com/jardin00)
+- Finetune RoBERTaGCN
