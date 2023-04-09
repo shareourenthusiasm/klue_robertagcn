@@ -1,9 +1,23 @@
 # Klue with RobertaGCN
 
-## Result
+## Result 
+
+### Not fold valid.
+
 |**Model** | **KLUE-ynat** |
 | ------------ | ---- |
 | *RoBERTaGCN* | **87.25** |
+
+### 5-fold Avg. (date. 2023/04/09)
+
+|**Model** | **KLUE-ynat** |
+| ------------ | ---- |
+| *BERT* | **86.31** |
+| *RoBERTa* | **85.90** |
+| *BertGCN* | **86.39** |
+| *RoBERTaGCN* | **86.25** |
+| *BertGCN_TBGC* | **86.99** |
+| *RoBERTaGCN_TBGC* | **86.72** |
 
 ## How to Use
 
@@ -28,7 +42,7 @@
 
 ## Problem
 
-When constructing an adjacency matrix, there is a data leakage problem. (The paperwitchcode doesn't seem to consider that issue.)
+When constructing an adjacency matrix, there is a data leakage problem. (The paperwithcode doesn't seem to consider that issue.)
 
 ## Reference
 
